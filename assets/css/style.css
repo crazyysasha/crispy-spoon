@@ -45,6 +45,10 @@ body {
     margin-right: 2.5rem;
 }
 
+.logo-size {
+    height: 52px;
+}
+
 .gap-2\.5rem {
     gap: 2.5rem;
 }
@@ -83,30 +87,40 @@ body {
     box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
-.text {
-    font-size: 20px;
-    margin-top: 150px;
-    margin-left: 80px;
-    margin-right: 639px;
-    font-size: 50px;
+.header-heading {
+    font-size: 70px;
 
 }
 
 .text2 {
     font-size: 18px;
     font-style: normal;
-    font-weight: 400px;
-    margin-left: 80px;
-    /* margin-bottom: 5169px; */
-    margin-right: 795px;
+    font-weight: 400;
 }
 
-.btn-1 {
-    margin-left: 400px;
-    margin-right: 882px;
-    margin-top: -94px;
-    margin-bottom: 50px;
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pt-5rem {
+    padding-top: 5rem;
+}
+
+.form {
     display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-20px {
+    gap: 20px;
+}
+.btn-1 {
+    display: flex;
+    align-items: center;
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -123,12 +137,7 @@ body {
 
 .email-input {
     padding: 13px 108px 13px 30px;
-    margin-right: 1080px;
     border: none;
-    margin-bottom: 50px;
-    margin-left: 80px;
-    margin-right: 900px;
-    margin-top: 40px;
 }
 
 .email-input::placeholder {
@@ -137,7 +146,11 @@ body {
     color: black;
 }
 
+.img {}
 
+.karta {
+    gap: 32px;
+}
 
 /* 2 chi block uchun */
 .ul {
