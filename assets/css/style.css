@@ -103,6 +103,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .pt-5rem {
     padding-top: 5rem;
 }
@@ -118,6 +119,7 @@ body {
 .gap-20px {
     gap: 20px;
 }
+
 .btn-1 {
     display: flex;
     align-items: center;
@@ -159,14 +161,19 @@ body {
     display: flex;
     flex-direction: column;
 }
- .gap {
-    margin-bottom: 25px;
- }
 
- .gap2 {
+.gap {
+    margin-bottom: 25px;
+}
+
+.gap2 {
     margin-bottom: 45px;
- }
- .margin-right {
-    margin-right: 190px;
-    margin-top: 215px;
- }
+}
+
+.block2 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    gap: 20px;
+}
