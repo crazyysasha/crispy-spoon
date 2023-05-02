@@ -1,9 +1,15 @@
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../fonts/NeueMachina-Regular.otf);
+    font-weight: 400;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: "fonts";
+    font-family: "Neue Machina";
 }
 
 body {
@@ -60,6 +66,7 @@ body {
 
     box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
 }
+
 .btn-secondary {
     background-color: transparent;
     color: #151515;
@@ -69,17 +76,13 @@ body {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .btn-secondary:hover {
     border-color: #151515;
     /* color: #fff; */
     box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
-@font-face {
-    font-family: "fonts";
-    src: url(/fonts/NeueMachina-Regular.otf
-);
-}
 .text {
     font-size: 20px;
     margin-top: 150px;
@@ -88,6 +91,7 @@ body {
     font-size: 50px;
 
 }
+
 .text2 {
     font-size: 18px;
     font-style: normal;
@@ -96,25 +100,27 @@ body {
     /* margin-bottom: 5169px; */
     margin-right: 795px;
 }
-  .btn-1 {
-     margin-left: 400px;
+
+.btn-1 {
+    margin-left: 400px;
     margin-right: 882px;
     margin-top: -94px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     display: flex;
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
     padding-left: 30px;
     color: white;
-    background:#151515;
+    background: #151515;
     border: none;
     color: #fff;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     /* text-align: center;
    */
-} 
+}
+
 .email-input {
     padding: 13px 108px 13px 30px;
     margin-right: 1080px;
@@ -124,9 +130,9 @@ body {
     margin-right: 900px;
     margin-top: 40px;
 }
+
 .email-input::placeholder {
     font-size: 16px;
     line-height: 15px;
-    color:black;
+    color: black;
 }
-
