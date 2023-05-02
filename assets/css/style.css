@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "fonts";
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.site-header {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 2.25rem;
+    gap: 20px;
+
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+    color: black;
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.mr-2\.5rem {
+    margin-right: 2.5rem;
+}
+
+.gap-2\.5rem {
+    gap: 2.5rem;
+}
+
+.btn-primary {
+    background-color: #151515;
+    color: #fff;
+    padding: 0.75rem 2.25rem;
+    border-radius: 0;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    border-color: #151515;
+    background-color: white;
+    color: #151515;
+
+    box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
+}
+.btn-secondary {
+    background-color: transparent;
+    color: #151515;
+    padding: 0.75rem 2.25rem;
+    border-radius: 0;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    border-color: #151515;
+    /* color: #fff; */
+    box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
+}
+
+@font-face {
+    font-family: "fonts";
+    src: url(/fonts/NeueMachina-Regular.otf
+);
+}
+.text {
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 639px;
+    font-size: 50px;
+
+}
+.text2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    margin-left: 80px;
+    /* margin-bottom: 5169px; */
+    margin-right: 795px;
+}
+  .btn-1 {
+     margin-left: 400px;
+    margin-right: 882px;
+    margin-top: -94px;
+    margin-bottom: 50px; 
+    display: flex;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    color: white;
+    background:#151515;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    /* text-align: center;
+   */
+} 
+.email-input {
+    padding: 13px 108px 13px 30px;
+    margin-right: 1080px;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 900px;
+    margin-top: 40px;
+}
+.email-input::placeholder {
+    font-size: 16px;
+    line-height: 15px;
+    color:black;
+}
+
