@@ -151,3 +151,22 @@ body {
 .karta {
     gap: 32px;
 }
+
+/* 2 chi block uchun */
+.ul {
+    list-style-type: square;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+ .gap {
+    margin-bottom: 25px;
+ }
+
+ .gap2 {
+    margin-bottom: 45px;
+ }
+ .margin-right {
+    margin-right: 190px;
+    margin-top: 215px;
+ }
