@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../fonts/NeueMachina-Regular.otf);
+    font-weight: 400;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Neue Machina";
 }
 
 body {
@@ -33,9 +40,15 @@ body {
 .items-center {
     align-items: center;
 }
+
 .mr-2\.5rem {
     margin-right: 2.5rem;
 }
+
+.logo-size {
+    height: 52px;
+}
+
 .gap-2\.5rem {
     gap: 2.5rem;
 }
@@ -54,7 +67,6 @@ body {
     border-color: #151515;
     background-color: white;
     color: #151515;
-    
     box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -78,5 +90,94 @@ body {
 .a {
     display: flex;
     gap: 30px;
-    
+}
+.header-heading {
+    font-size: 70px;
+
+}
+
+.text2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pt-5rem {
+    padding-top: 5rem;
+}
+
+.form {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-20px {
+    gap: 20px;
+}
+
+.btn-1 {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    color: white;
+    background: #151515;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    /* text-align: center;
+   */
+}
+
+.email-input {
+    padding: 13px 108px 13px 30px;
+    border: none;
+}
+
+.email-input::placeholder {
+    font-size: 16px;
+    line-height: 15px;
+    color: black;
+}
+
+.img {}
+
+.karta {
+    gap: 32px;
+}
+
+/* 2 chi block uchun */
+.ul {
+    list-style-type: square;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gap {
+    margin-bottom: 25px;
+}
+
+.gap2 {
+    margin-bottom: 45px;
+}
+
+.block2 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    gap: 20px;
 }
