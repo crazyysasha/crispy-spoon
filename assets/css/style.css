@@ -43,6 +43,9 @@ body {
     align-items: center;
 }
 
+.flex-column {
+    flex-direction: column;
+}
 .mr-2\.5rem {
     margin-right: 2.5rem;
 }
@@ -112,7 +115,7 @@ body {
 .footer {
     background-color: black;
 }
-.block2{
+.flex{
 display: flex;
 }
 .a1 {
