@@ -15,6 +15,7 @@
 body {
     background-color: #F0F0F0;
 }
+
 .otasi {
     justify-content: space-between;
     display: flex;
@@ -23,9 +24,9 @@ body {
 
 .site-header {
     max-width: 1280px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
-    display: flex;  
+    display: flex;
     padding-top: 2.25rem;
     gap: 20px;
 }
@@ -33,6 +34,7 @@ body {
 .flex-grow-1 {
     flex-grow: 1;
 }
+
 .flex {
     display: flex;
 }
@@ -87,97 +89,61 @@ body {
 }
 
 
+
+/* 7 chi block boshlanishi */
+.otasi {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 160px;
+}
+
+.goole {
+    display: flex;
+    height: 3.75rem;
+    ;
+    width: 24.5rem;
+}
+
 .a {
-    display: flex;
-    gap: 30px;
-}
-.header-heading {
-    font-size: 70px;
-
-}
-
-.text2 {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.container {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pt-5rem {
-    padding-top: 5rem;
-}
-
-.form {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.gap-20px {
-    gap: 20px;
-}
-
-.btn-1 {
-    display: flex;
-    align-items: center;
-    padding-top: 5px;
-    padding-right: 30px;
-    padding-bottom: 5px;
-    padding-left: 30px;
-    color: white;
-    background: #151515;
-    border: none;
     color: #fff;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    /* text-align: center;
-   */
 }
 
-.email-input {
-    padding: 13px 108px 13px 30px;
-    border: none;
+.footer {
+    background-color: black;
+}
+.block2{
+display: flex;
+}
+.a1 {
+ width: 180px; 
+ height: 74px;
 }
 
-.email-input::placeholder {
-    font-size: 16px;
-    line-height: 15px;
-    color: black;
+.a2{
+    width: 142px; 
+    height: 175px; 
 }
-
-.img {}
-
-.karta {
-    gap: 32px;
-}
-
-/* 2 chi block uchun */
-.ul {
-    list-style-type: square;
-    gap: 25px;
-    display: flex;
-    flex-direction: column;
-}
-
-.gap {
-    margin-bottom: 25px;
-}
-
-.gap2 {
-    margin-bottom: 45px;
+.a3{
+    width: 206.44px; 
+    height: 184px; 
 }
 
 .block2 {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5rem;
-    gap: 20px;
+    margin-right: 00px;
 }
+.havola{
+    color: #fff;
+    
+}
+.a.havola:link {color:#ff0000;}
+.a.havola:visited {color:#0000ff;}
+.a.havola:hover {color:#ffcc00;}
+.footer{
+    width: 1440px;
+    height: 560px;
+}
+
+
+
+/* 7 chi block tugadi */
