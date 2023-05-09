@@ -89,9 +89,9 @@ body {
 }
 
 .goole {
+    gap: 5px;
     display: flex;
     height: 3.75rem;
-    ;
     width: 24.5rem;
 }
 
@@ -126,9 +126,6 @@ display: flex;
     color: #fff;
     
 }
-.a.havola:link {color:#ff0000;}
-.a.havola:visited {color:#0000ff;}
-.a.havola:hover {color:#ffcc00;}
 .footer{
     width: 1440px;
     height: 560px;
