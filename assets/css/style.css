@@ -79,20 +79,61 @@ body {
 }
 
 
-.a {
-    display: flex;
-    gap: 30px;
 
+/* 7 chi block boshlanishi */
+.otasi {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 160px;
+}
+
+.goole {
+    display: flex;
+    height: 3.75rem;
+    ;
+    width: 24.5rem;
+}
+
+.a {
+    color: #fff;
 }
 
 .footer {
     background-color: black;
 }
-.goole{
-
+.block2{
+display: flex;
 }
-.block1{
-    display: flex;
+.a1 {
+ width: 180px; 
+ height: 74px;
+}
+
+.a2{
+    width: 142px; 
+    height: 175px; 
+}
+.a3{
+    width: 206.44px; 
+    height: 184px; 
+}
+
+.block2 {
+    margin-right: 00px;
+}
+.havola{
+    color: #fff;
     
 }
+.a.havola:link {color:#ff0000;}
+.a.havola:visited {color:#0000ff;}
+.a.havola:hover {color:#ffcc00;}
+.footer{
+    width: 1440px;
+    height: 560px;
+}
 
+
+
+/* 7 chi block tugadi */
