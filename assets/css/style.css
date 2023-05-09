@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "Neue Machina";
+    src: url(../fonts/NeueMachina-Regular.otf);
+    font-weight: 400;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Neue Machina";
 }
 
 body {
@@ -36,8 +43,15 @@ body {
     align-items: center;
 }
 
+.flex-column {
+    flex-direction: column;
+}
 .mr-2\.5rem {
     margin-right: 2.5rem;
+}
+
+.logo-size {
+    height: 52px;
 }
 
 .gap-2\.5rem {
@@ -58,7 +72,6 @@ body {
     border-color: #151515;
     background-color: white;
     color: #151515;
-
     box-shadow: 1px 1px 8px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -102,7 +115,7 @@ body {
 .footer {
     background-color: black;
 }
-.block2{
+.flex{
 display: flex;
 }
 .a1 {
