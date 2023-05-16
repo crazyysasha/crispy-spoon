@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <!-- <div class="container mx-auto p-5" onclick="console.log(event.target)"> -->
+    <div class="container mx-auto p-5" onclick="console.log(event.target)">
+        <button class="bg-lime-600 py-2 px-5 rounded-xl" id="openModalButton">
+            <!-- <span> bosilayotgan element -->
+                click me
+            <!-- </span> -->
+        </button>
+    </div>
+    <main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsam officiis voluptatem repellat, dicta
+        voluptate. Veniam quis asperiores dolor nihil nobis accusantium velit. Nam accusamus molestiae at porro placeat
+        praesentium.
+    </main>
+    <div class="absolute inset-0 bg-transparent  backdrop-blur-0 hidden justify-center items-center transition-all duration-1000"
+        id="modalContainer">
+        <div class="bg-white p-5  transition-all duration-1000 ease-in-out" id="modalElement">
+            <h1>
+                welcome to registration
+            </h1>
+        </div>
+    </div>
+    <script src="assets/js/mixed.js"></script>
+</body>
+
+</html>
