@@ -1,0 +1,68 @@
+/*2441px open*/
+.felx {
+    display: flex;
+   
+}
+
+.login-btn {
+    background-color: #fff;
+
+}
+
+.aa {
+    width: 380px;
+    height: 362px;
+    background-color: aliceblue;
+     
+  margin-left: 47%;
+}
+
+.yangilanish {
+    background-color: rgba(66, 56, 56, 25%);
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.button1 {
+    background-color: #fff;
+    width: 64px;
+    height: 31px;
+    border-radius: 3px;
+}
+
+.button2 {
+    background-color: black;
+    color: #fff;
+    width: 64px;
+    height: 31px;
+    border-radius: 3px;
+}
+.ss{
+    content: counter(700. 1200. 2441 );
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+/*2441 px closed*/
+
+
+
+
+
+
+
+
+
+
+
+
