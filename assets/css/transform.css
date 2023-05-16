@@ -1,0 +1,94 @@
+.btn {
+    background-color: blueviolet;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.translated {
+    /* transform: translate(30px, 60px) translateX(50px) translateY(10px) scale(1.2, 1.5); */
+}
+
+.rotated {
+    transform: rotate(0deg) skew(-20deg);
+}
+
+.btn:hover {
+    transform: scale(1.2) rotate(350deg);
+    background-color: chartreuse;
+}
+
+.btn:active {
+    transform: scale(0.9);
+    background-color: brown;
+}
+
+
+.mt-5rem {
+    margin-top: 5rem;
+}
+
+.animated {
+    animation: rotate 4s ease infinite;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    /* animation-direction: alternate-reverse; */
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    background-color: white;
+    animation: rotate 4s ease-in-out 3s infinite alternate backwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(0px);
+        background-color: GREEN;
+    }
+
+    25% {
+        transform: translate(100px, 100px);
+    }
+
+    50% {
+        background-color: blueviolet;
+    }
+
+    75% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        background-color: white;
+        transform: rotate(720deg) translateX(50px);
+
+        background-color: black;
+    }
+}
+
+.animated-flex {
+    display: flex;
+    animation: flexDirection 2s ease infinite;
+    gap: 1rem;
+}
+
+.item {
+    padding: 1rem;
+    background-color: blueviolet;
+}
+
+
+/* xato */
+@keyframes flexDirection {
+    0% {
+        flex-direction: row;
+    }
+
+
+    100% {
+        flex-direction: column;
+    }
+}
+    
