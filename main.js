@@ -3,6 +3,8 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter, myFunction } from './counter.js'
 
+import {register, welcome} from './welcome';
+
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -17,13 +19,18 @@ document.querySelector('#app').innerHTML = `
       <button id="decrement" type="button">decrement</button>
       <div id="output"></div>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+    
+    <form id="registerForm">
+      <input id="nameInput">
+      <button id="registerButton"> saqlash </button>
+    </form>
+
+    <div id="welc"></div>
   </div>
 `
 
 setupCounter(increment, decrement, output)
 
+register(registerForm, nameInput, registerButton);
 
-myFunction();
+welcome(welc, registerForm);
