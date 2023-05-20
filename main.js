@@ -26,8 +26,10 @@ document.querySelector('#app').innerHTML = `
     </form>
 
     <div id="welc"></div>
+
   </div>
 `
+// TODO: #30 saytda oxirgi marta ${sana} da bo\`lgansiz
 
 setupCounter(increment, decrement, output)
 
