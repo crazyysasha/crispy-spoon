@@ -1,8 +1,9 @@
 import './style.css'
-import { urganganNarsalarimiz } from './urganish';
-import { setupUsers } from './users';
+import { setupUsers } from './users'
 
 
-urganganNarsalarimiz();
+let usersOutput = document.querySelector("#usersList");
 
-setupUsers();
+if (usersOutput) {
+  setupUsers(usersOutput);
+}

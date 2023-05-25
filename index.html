@@ -9,11 +9,38 @@
 </head>
 
 <body>
-  <button id="loadUsers" class="bg-slate-700 px-5 py-2 rounded-lg text-white hover:bg-slate-800 transition">
-    load users
-  </button>
-  <ul id="result">
-  </ul>
+  <h1 class="text-4xl text-green-500">users</h1>
+  <div class="border border-zinc-400 rounded-lg overflow-hidden max-w-fit">
+    <table>
+      <thead>
+        <tr>
+          <th class="border-b border-zinc-400 py-2.5 px-5">
+            id
+          </th>
+          <th class="border-b border-zinc-400 py-2.5 px-5">
+            Ismi
+          </th>
+          <th class="border-b border-zinc-400 py-2.5 px-5">
+            login
+          </th>
+          <th class="border-b border-zinc-400 py-2.5 px-5">
+            email
+          </th>
+          <th class="border-b border-zinc-400 py-2.5 px-5">
+            address
+          </th>
+        </tr>
+      </thead>
+      <tbody id="usersList">
+        
+        <tr>
+          <td class="text-center py-2.5 px-5" colspan="5">
+            yuklanmoqda
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <script type="module" src="/main.js"></script>
 </body>
 
