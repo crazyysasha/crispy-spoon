@@ -3,7 +3,6 @@ export default {
   content: [
     "index.html",
     "main.js",
-    "users.js",
   ],
   presets: [],
   darkMode: 'media', // or 'class'
