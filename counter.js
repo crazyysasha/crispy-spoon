@@ -1,5 +1,5 @@
 export function setupCounter(inc, dec, output) {
-  let counter = parseInt(localStorage.getItem("count"));
+  let counter = parseInt(localStorage.getItem("count")) ?? 0;
   const setCounter = (count) => {
     localStorage.setItem("count", count);
     counter = count

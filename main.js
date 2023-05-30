@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter, myFunction } from './counter.js'
 
 import {register, welcome} from './welcome';
+import { setupLastSeen } from './lastSeen';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -26,7 +27,7 @@ document.querySelector('#app').innerHTML = `
     </form>
 
     <div id="welc"></div>
-
+    
   </div>
 `
 // TODO: #30 saytda oxirgi marta ${sana} da bo\`lgansiz
@@ -36,3 +37,5 @@ setupCounter(increment, decrement, output)
 register(registerForm, nameInput, registerButton);
 
 welcome(welc, registerForm);
+
+setupLastSeen(lastSeen);
