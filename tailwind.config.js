@@ -3,6 +3,7 @@ export default {
   content: [
     "index.html",
     "main.js",
+    "post.{html,js}",
   ],
   presets: [],
   darkMode: 'media', // or 'class'
